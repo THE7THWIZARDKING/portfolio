@@ -1,7 +1,7 @@
 <template>
   <section
     class="bg-cover bg-center h-screen"
-    style="background-image: url('https://i.pinimg.com/736x/aa/6f/f8/aa6ff8b6e11a79f3367cc514d9edfe9a.jpg')"
+    style="background-image: url('https://picsum.photos/id/237/100/100')"
   >
     <div
       class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50"

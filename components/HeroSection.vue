@@ -12,7 +12,7 @@
           Crafting beautiful and functional web experiences
         </p>
         <a
-          href="/portfolio"
+          href="#"
           class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
           >View My Work</a
         >

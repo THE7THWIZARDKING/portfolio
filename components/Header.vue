@@ -1,5 +1,5 @@
 <template>
-    <header class="sticky top-0 bg-white shadow-md z-50">
+    <header class="sticky top-0 bg-[#5585B5] hover:text[] shadow-md -z-50">
       <div class="container mx-auto flex justify-between items-center p-4">
         <div class="text-2xl font-bold">James Shrestha</div>
         <nav class="space-x-4 ">

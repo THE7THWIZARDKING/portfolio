@@ -34,7 +34,7 @@ const posts = [
     id: 1,
     title: "Blog Post One",
     excerpt: "A short excerpt of Blog Post One.",
-    image: "/path-to-image1.jpg",
+    image: "#",
     link: "/blog/blog-post-one",
   },
   // Add more blog posts as needed

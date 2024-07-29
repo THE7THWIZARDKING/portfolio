@@ -1,9 +1,7 @@
 <template>
   <section
-    class="bg-cover bg-no-repeat bg-center h-screen"
-    style="
-      background-image: url('https://i.pinimg.com/474x/57/da/1d/57da1db47a30fe8d608da6d3b25dfc08.jpg');
-    "
+    class="bg-cover bg-center h-screen"
+    style="background-image: url('#')"
   >
     <div
       class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50"

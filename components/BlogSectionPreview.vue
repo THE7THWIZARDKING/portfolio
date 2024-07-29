@@ -51,6 +51,8 @@ const posts = [
     image: "#",
     link: "#",
   },
+
+  // Add more blog posts as needed
 ];
 </script>
   

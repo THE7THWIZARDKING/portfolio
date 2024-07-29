@@ -3,11 +3,19 @@
     <div class="container mx-auto flex justify-between items-center p-4">
       <div class="text-2xl font-bold">James Shrestha</div>
       <nav class="space-x-4">
-        <nuxt-link to="#" class="text-black hover:text-white">Home</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white">About</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white">Portfolio</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white">Blog</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white">Contact</nuxt-link>
+        <nuxt-link to="/" class="text-black hover:text-white">Home</nuxt-link>
+        <nuxt-link to="/About" class="text-black hover:text-white"
+          >About</nuxt-link
+        >
+        <nuxt-link to="/Portfolio" class="text-black hover:text-white"
+          >Portfolio</nuxt-link
+        >
+        <nuxt-link to="/Blog" class="text-black hover:text-white"
+          >Blog</nuxt-link
+        >
+        <nuxt-link to="/Contact" class="text-black hover:text-white"
+          >Contact</nuxt-link
+        >
       </nav>
     </div>
   </header>

@@ -13,7 +13,7 @@
         </p>
         <a
           href="#"
-          class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+          class="bg-[#132620] hover:bg-[#B68D40] text-white py-2 px-4 rounded"
           >View My Work</a
         >
       </div>

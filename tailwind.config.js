@@ -1,8 +1,9 @@
+/** @type {import('tailwindcss').Config} */
 export default {
-  buildModules: [
-    '@nuxtjs/tailwindcss',
-  ],
-  css: [
-    '@/assets/css/tailwind.css',
-  ],
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
+

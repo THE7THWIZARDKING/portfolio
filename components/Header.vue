@@ -13,8 +13,4 @@
   </header>
 </template>
 
-<style scoped>
-header {
-  background-color: #F8DA5B;
-}
-</style>
+

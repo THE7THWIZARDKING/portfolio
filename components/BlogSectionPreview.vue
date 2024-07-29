@@ -51,14 +51,6 @@ const posts = [
     image: "#",
     link: "#",
   },
-  {
-    id: 4,
-    title: "Blog Post two",
-    excerpt: "A short excerpt of Blog Post four.",
-    image: "#",
-    link: "#",
-  },
-  // Add more blog posts as needed
 ];
 </script>
   

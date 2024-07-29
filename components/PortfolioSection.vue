@@ -53,27 +53,6 @@ const projects = [
     thumbnail: "#",
     link: "#",
   },
-  {
-    id: 4,
-    title: "Project four",
-    description: "A short description of Project four.",
-    thumbnail: "#",
-    link: "#",
-  },
-  {
-    id: 5,
-    title: "Project five",
-    description: "A short description of Project five.",
-    thumbnail: "#",
-    link: "#",
-  },
-  {
-    id: 6,
-    title: "Project six",
-    description: "A short description of Project six.",
-    thumbnail: "#",
-    link: "#",
-  },
 ];
 </script>
   

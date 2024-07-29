@@ -1,10 +1,13 @@
 <template>
-  <section
-    class="bg-cover bg-center h-screen"
-    style="background-image: url('https://images.unsplash.com/photo-1607706009771-de8808640bcf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fDE5MjAlMjB4JTIwMTA4MCUyMGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D')"
-  >
+  <section class="relative h-screen overflow-hidden">
     <div
-      class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50"
+      class="absolute inset-0 w-full h-full bg-cover bg-center"
+      style="
+        background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWQ2YTcyM3d2N2I1MWljZHpzZTl4aWJpbDdhaDBjMHl1YmR4dTZjMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/200.webp');
+      "
+    ></div>
+    <div
+      class="relative z-10 flex items-center justify-center h-full bg-gray-900 bg-opacity-50"
     >
       <div class="text-center text-white">
         <h1 class="text-5xl font-bold mb-4">James Shrestha - Web Developer</h1>
@@ -20,4 +23,13 @@
     </div>
   </section>
 </template>
-  
+
+<style scoped>
+/* Ensure the background image is displayed correctly */
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+</style>

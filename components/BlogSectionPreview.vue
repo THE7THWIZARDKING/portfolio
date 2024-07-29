@@ -1,8 +1,8 @@
 <template>
-  <section id="blog" class="py-12 bg-gray-100">
+  <section id="blog" class="py-2 bg-gray-100">
     <v-container>
       <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold mb-8">Latest Blog Posts</h2>
+        <h2 class="text-4xl font-bold mb-8 text-[#B68D40]">Latest Blog Posts</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div
             v-for="post in posts"

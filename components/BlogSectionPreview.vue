@@ -35,7 +35,28 @@ const posts = [
     title: "Blog Post One",
     excerpt: "A short excerpt of Blog Post One.",
     image: "#",
-    link: "/blog/blog-post-one",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Blog Post two",
+    excerpt: "A short excerpt of Blog Post two.",
+    image: "#",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Blog Post One",
+    excerpt: "A short excerpt of Blog Post three.",
+    image: "#",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Blog Post two",
+    excerpt: "A short excerpt of Blog Post four.",
+    image: "#",
+    link: "#",
   },
   // Add more blog posts as needed
 ];

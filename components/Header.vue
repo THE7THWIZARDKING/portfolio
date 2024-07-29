@@ -5,17 +5,16 @@
       <nav class="space-x-4">
         <nuxt-link to="#" class="text-black hover:text-white">Home</nuxt-link>
         <nuxt-link to="#" class="text-black hover:text-white">About</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white"
-          >Portfolio</nuxt-link
-        >
+        <nuxt-link to="#" class="text-black hover:text-white">Portfolio</nuxt-link>
         <nuxt-link to="#" class="text-black hover:text-white">Blog</nuxt-link>
-        <nuxt-link to="#" class="text-black hover:text-white"
-          >Contact</nuxt-link
-        >
+        <nuxt-link to="#" class="text-black hover:text-white">Contact</nuxt-link>
       </nav>
     </div>
   </header>
 </template>
 
-
-  
+<style scoped>
+header {
+  background-color: #F8DA5B;
+}
+</style>

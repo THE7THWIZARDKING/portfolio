@@ -1,7 +1,7 @@
 <template>
   <section id="portfolio" class="py-12">
     <v-container>
-      <div class="text-center ">
+      <div class="text-center">
         <h2 class="text-4xl font-bold mb-8">Portfolio</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 -z-30">
           <div
@@ -37,35 +37,42 @@ const projects = [
     title: "Project One",
     description: "A short description of Project One.",
     thumbnail: "#",
-    link: "/project-one",
+    link: "#",
   },
   {
     id: 2,
-    title: "Project One",
-    description: "A short description of Project One.",
+    title: "Project two",
+    description: "A short description of Project two.",
     thumbnail: "#",
-    link: "/project-one",
+    link: "#",
   },
   {
     id: 3,
-    title: "Project One",
-    description: "A short description of Project One.",
+    title: "Project three",
+    description: "A short description of Project three.",
     thumbnail: "#",
-    link: "/project-one",
+    link: "#",
   },
   {
     id: 4,
-    title: "Project One",
-    description: "A short description of Project One.",
+    title: "Project four",
+    description: "A short description of Project four.",
     thumbnail: "#",
-    link: "/project-one",
+    link: "#",
   },
   {
     id: 5,
-    title: "Project One",
-    description: "A short description of Project One.",
+    title: "Project five",
+    description: "A short description of Project five.",
     thumbnail: "#",
-    link: "/project-one",
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "Project six",
+    description: "A short description of Project six.",
+    thumbnail: "#",
+    link: "#",
   },
 ];
 </script>

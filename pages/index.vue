@@ -5,6 +5,6 @@
       <AboutSection />
       <PortfolioSection />
       <BlogSectionPreview />
-      <!-- <Footer /> -->
+      <Footer />
     </div>
   </template>

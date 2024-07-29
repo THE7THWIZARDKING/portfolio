@@ -1,15 +1,36 @@
 <template>
-    <footer class="bg-gray-800 text-white py-8">
-      <div class="container mx-auto text-center">
-        <div class="mb-4">
-          <a href="mailto:james@example.com" class="text-blue-400 hover:underline">james@example.com</a>
-          <span class="mx-2">|</span>
-          <a href="tel:+123456789" class="text-blue-400 hover:underline">+123 456 789</a>
-          <span class="mx-2">|</span>
-          <a href="https://www.linkedin.com/in/james" class="text-blue-400 hover:underline">LinkedIn</a>
-        </div>
-        <p>&copy; 2024 James Shrestha. All Rights Reserved.</p>
+  <footer class="bg-[#F8DA5B] text-white py-8">
+    <div class="container mx-auto text-center">
+      <div class="mb-4">
+        <a
+          href="mailto:shresthajames21@gmail.com"
+          class="text-black hover:underline"
+          >shresthajames21@gmail.com</a
+        >
+        <span class="mx-2 text-black">|</span>
+        <a href="tel:+980xxxxxx" class="text-black hover:underline"
+          >+980xxxxx</a
+        >
+        <span class="mx-2 text-black">|</span>
+
+        <nuxt-link 
+          to="https://www.linkedin.com/in/james-shrestha-15b7a2272/"
+          target="_blank"
+          class=" text-black hover:underline"
+        >
+          <v-icon>mdi-linkedin</v-icon>
+        </nuxt-link>
+
+        <span class="mx-2 text-black">|</span>
+        <nuxt-link
+          to="https://www.instagram.com/the_hokageguy/"
+          target="_blank"
+          class="text-black hover:underline"
+          ><v-icon>mdi-instagram</v-icon></nuxt-link
+        >
       </div>
-    </footer>
-  </template>
+      <p class="text-black">&copy; 2024 James Shrestha. All Rights Reserved.</p>
+    </div>
+  </footer>
+</template>
   

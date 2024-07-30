@@ -1,9 +1,9 @@
 <template>
   <section class="relative h-screen overflow-hidden">
     <div
-      class="absolute inset-0  w-[590] bg-cover bg-center"
+      class="absolute inset-0 w-[590] bg-cover bg-center"
       style="
-        background-image: url('https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/200.webp?cid=790b76116w54uxlj1jbp6hlyjtqmgocdd8p7qcpu68f8ab46&ep=v1_gifs_search&rid=200.webp&ct=g');
+        background-image: url('https://media3.giphy.com/media/QDjpIL6oNCVZ4qzGs7/giphy.webp?cid=790b7611v54zsvbop3d7q2e90ygqi5elwbv1l5edbnbeh0rh&ep=v1_gifs_search&rid=giphy.webp&ct=g');
       "
     ></div>
     <div

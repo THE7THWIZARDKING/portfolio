@@ -2,7 +2,7 @@
   <section id="portfolio" class="py-2">
     <v-container>
       <div class="text-center">
-        <h2 class="text-4xl font-bold mb-8">Portfolio</h2>
+        <h2 class="text-4xl font-bold mb-8 text-[#B68D40]">Portfolio</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 -z-30">
           <div
             v-for="project in projects"
@@ -12,11 +12,11 @@
             <img
               :src="project.thumbnail"
               alt="Project Thumbnail"
-              class="w-full px-24  pt-3 object-cover rounded-full"
+              class="w-full px-24 pt-3 object-cover rounded-full"
             />
             <div class="p-4">
-              <h3 class="text-2xl font-bold mb-2">{{ project.title }}</h3>
-              <p class="text-gray-600">{{ project.description }}</p>
+              <h3 class="text-2xl font-bold text-[#B68D40]  mb-2">{{ project.title }}</h3>
+              <p class="">{{ project.description }}</p>
               <nuxt-link
                 :to="project.link"
                 class="text-[#B68D40] hover:underline"
@@ -47,7 +47,7 @@ const projects = [
     description:
       "Jaiswal Pet Store is an online e-commerce platform dedicated to providing a wide variety of pets to enthusiasts and pet lovers. This user-friendly website offers an extensive selection of pets, including dogs, cats, birds, reptiles, and small mammals. Customers can browse through detailed listings, view high-quality images, and access essential information about each pet, ensuring they make informed decisions. ",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9UKu0wv6zmx8ICP37WhPb2dtmYn5ho_5B5s6GVJcdAtJ7FksHnXmXxm4RllZWOlEUaI&usqp=CAU",
-    link: "#",
+    link: "https://github.com/THE7THWIZARDKING/syp-frontend",
     target: "_blank",
   },
   {

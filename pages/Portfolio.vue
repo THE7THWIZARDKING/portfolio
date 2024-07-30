@@ -12,7 +12,7 @@
             <img
               :src="project.thumbnail"
               alt="Project Thumbnail"
-              class="w-full h-48 object-cover"
+              class="w-full px-24 object-cover"
             />
             <div class="p-4">
               <h3 class="text-2xl font-bold mb-2">{{ project.title }}</h3>
@@ -34,14 +34,16 @@
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A short description of Project One.",
-    thumbnail: "#",
-    link: "#",
+    title: "Nasst college",
+    description:
+      "Developed a responsive college website designed to facilitate course enrollment and streamline the admissions process. The site features an intuitive interface for students to easily browse and register for courses, apply for admissions, and access essential information. The responsive design ensures optimal performance across all devices, enhancing user experience and accessibility.",
+    thumbnail: "https://dmcdharan.com/images/1678860663.png",
+    link: "https://jameshrestha.netlify.app/",
+    target: "_blank",
   },
   {
     id: 2,
-    title: "Project two",
+    title: "Jaiswal pet Store",
     description: "A short description of Project two.",
     thumbnail: "#",
     link: "#",

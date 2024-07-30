@@ -7,12 +7,12 @@
           <div
             v-for="project in projects"
             :key="project.id"
-            class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transform transition duration-300"
+            class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transform transition duration-300  items-center"
           >
             <img
               :src="project.thumbnail"
               alt="Project Thumbnail"
-              class="w-full h-48 object-cover"
+              class="h-40 px-24 object-cover"
             />
             <div class="p-4">
               <h3 class="text-2xl font-bold mb-2">{{ project.title }}</h3>
@@ -37,7 +37,7 @@ const projects = [
     title: "Nasst college",
     description:
       "Developed a responsive college website designed to facilitate course enrollment and streamline the admissions process. The site features an intuitive interface for students to easily browse and register for courses, apply for admissions, and access essential information. The responsive design ensures optimal performance across all devices, enhancing user experience and accessibility.",
-    thumbnail: "nasst.png",
+    thumbnail: "https://dmcdharan.com/images/1678860663.png",
     link: "https://jameshrestha.netlify.app/",
     target: "_blank",
   },

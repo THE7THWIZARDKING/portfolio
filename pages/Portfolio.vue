@@ -19,7 +19,7 @@
               <p class="text-gray-600">{{ project.description }}</p>
               <nuxt-link
                 :to="project.link"
-                class="text-blue-600 hover:underline"
+                class="text-[#B68D40] hover:underline"
                 >View Project</nuxt-link
               >
             </div>

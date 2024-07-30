@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="py-12">
+  <section id="portfolio" class="py-2">
     <v-container>
       <div class="text-center">
         <h2 class="text-4xl font-bold mb-8">Portfolio</h2>
@@ -12,7 +12,7 @@
             <img
               :src="project.thumbnail"
               alt="Project Thumbnail"
-              class="w-full px-24  pt-3 object-cover"
+              class="w-full px-24  pt-3 object-cover rounded-full"
             />
             <div class="p-4">
               <h3 class="text-2xl font-bold mb-2">{{ project.title }}</h3>
@@ -46,7 +46,7 @@ const projects = [
     title: "Jaiswal pet Store",
     description:
       "Jaiswal Pet Store is an online e-commerce platform dedicated to providing a wide variety of pets to enthusiasts and pet lovers. This user-friendly website offers an extensive selection of pets, including dogs, cats, birds, reptiles, and small mammals. Customers can browse through detailed listings, view high-quality images, and access essential information about each pet, ensuring they make informed decisions. ",
-    thumbnail: "#",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9UKu0wv6zmx8ICP37WhPb2dtmYn5ho_5B5s6GVJcdAtJ7FksHnXmXxm4RllZWOlEUaI&usqp=CAU",
     link: "#",
     target: "_blank",
   },

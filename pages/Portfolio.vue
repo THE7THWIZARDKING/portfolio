@@ -53,10 +53,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Project three",
-    description: "A short description of Project three.",
-    thumbnail: "#",
-    link: "#",
+    title: "Gada Electronic - TV Store",
+    description:
+      "Gada Electronic is an e-commerce platform specializing in selling a wide variety of televisions. This project highlights the development of a dedicated online store with features tailored to provide an excellent user experience for customers looking to purchase TVs.",
+    thumbnail: "images/ge.png",
   },
 ];
 </script>

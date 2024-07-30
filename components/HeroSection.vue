@@ -14,10 +14,10 @@
         <p class="text-xl mb-6">
           Crafting beautiful and functional web experiences
         </p>
-        <a
-          href="/Portfolio"
+        <nuxt-link
+          to="/Portfolio"
           class="bg-[#132620] hover:bg-[#B68D40] text-white py-2 px-4 rounded"
-          >View My Work</a
+          >View My Work</nuxt-link
         >
       </div>
     </div>

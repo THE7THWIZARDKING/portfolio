@@ -15,7 +15,9 @@
               class="w-full px-24 pt-3 object-cover rounded-full"
             />
             <div class="p-4">
-              <h3 class="text-2xl font-bold text-[#B68D40]  mb-2">{{ project.title }}</h3>
+              <h3 class="text-2xl font-bold text-[#B68D40] mb-2">
+                {{ project.title }}
+              </h3>
               <p class="">{{ project.description }}</p>
               <nuxt-link
                 :to="project.link"
@@ -46,7 +48,8 @@ const projects = [
     title: "Jaiswal pet Store",
     description:
       "Jaiswal Pet Store is an online e-commerce platform dedicated to providing a wide variety of pets to enthusiasts and pet lovers. This user-friendly website offers an extensive selection of pets, including dogs, cats, birds, reptiles, and small mammals. Customers can browse through detailed listings, view high-quality images, and access essential information about each pet, ensuring they make informed decisions. ",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9UKu0wv6zmx8ICP37WhPb2dtmYn5ho_5B5s6GVJcdAtJ7FksHnXmXxm4RllZWOlEUaI&usqp=CAU",
+    thumbnail: "/public/pet.png",
+
     link: "https://github.com/THE7THWIZARDKING/syp-frontend",
     target: "_blank",
   },

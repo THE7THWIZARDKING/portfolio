@@ -12,7 +12,7 @@
             <img
               :src="project.thumbnail"
               alt="Project Thumbnail"
-              class="w-full px-24 object-cover"
+              class="w-full px-24  pt-3 object-cover"
             />
             <div class="p-4">
               <h3 class="text-2xl font-bold mb-2">{{ project.title }}</h3>
@@ -44,9 +44,11 @@ const projects = [
   {
     id: 2,
     title: "Jaiswal pet Store",
-    description: "A short description of Project two.",
+    description:
+      "Jaiswal Pet Store is an online e-commerce platform dedicated to providing a wide variety of pets to enthusiasts and pet lovers. This user-friendly website offers an extensive selection of pets, including dogs, cats, birds, reptiles, and small mammals. Customers can browse through detailed listings, view high-quality images, and access essential information about each pet, ensuring they make informed decisions. ",
     thumbnail: "#",
     link: "#",
+    target: "_blank",
   },
   {
     id: 3,
